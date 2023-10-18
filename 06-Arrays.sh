@@ -1,6 +1,7 @@
 #!/bin/bash
 
 PERSONS=("Tejo" "Lavanya" "Kishan")
-
+places=("Los Angeles" "Tirupati")
 echo "First Person is: ${PERSONS[0]}"
-echo "ALL Values: ${PERSONS[@]}"
+echo "All Persons: ${PERSONS[@]}"
+echo "All Places: ${places[@]}"
