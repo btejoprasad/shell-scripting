@@ -3,5 +3,5 @@
 NUM1=$1
 NUM2=$2
 
-SUM=$((NUM1+NUM2))
-echo $SUM
+SUM=$(NUM1+NUM2)
+echo "Sum: $SUM"
